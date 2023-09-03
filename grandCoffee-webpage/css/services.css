@@ -1,0 +1,64 @@
+.services{
+    height: 600px;
+    width: 100%;
+    background-image:url(../images/services-bg.png);
+    background-attachment: fixed;
+}
+.services-text{
+    height: 120px;
+    width: 100%;
+    position:relative;
+    top:100px;
+    background-color: transparent;
+    color:white;
+}
+.services-text h1{
+    font-size: 40px;
+    text-align: center;
+}
+.services-text p{
+    font-size: 16px;
+    text-align:center;
+}
+.services-links{
+    height: 600px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-color: transparent;
+}
+.services-boxes{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(249, 97, 42);
+    color:white;
+    overflow: hidden;
+}
+.services-icons{
+    font-size: 50px;
+    text-align: center;
+    color:aqua;
+    margin-top: 20px;
+}
+.boxes-text{
+    text-align: center;
+}
+.boxes-text h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.boxes-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.services-boxes:hover{
+    background-color:white;
+    color:black;
+    transition-duration: 0.5s;
+    height: 310px;
+}
+.services-boxes button{
+    margin-top:60px;
+}

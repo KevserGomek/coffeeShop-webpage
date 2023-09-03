@@ -1,0 +1,71 @@
+.banner{
+    height: 585px;
+    width: 100%;
+    background-image: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{ 
+    height: 360px;
+    width: 555px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left:210px;
+    top:110px;
+}
+.banner-text h2{
+    color:rgb(38, 36, 36);
+    font-size: 60px;
+    font-weight: 400;
+}
+.banner-text h1{
+    color:white;
+    font-size: 70px;
+}
+.banner-text p{
+    color:white;
+    font-size: 16px;
+}
+.banner-btn {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    width: 165px;
+    font-size: 14px;
+    margin-top: 33px;
+    background-color: rgb(38, 36, 36);
+    color:white;
+    border:none; 
+}
+.banner-btn:hover{
+    cursor:pointer;
+    background-color:rgb(249, 97, 42);
+    transition-duration: 0.5s;
+}
+.slider{
+    height: 90px;
+    width: 100%;
+    position: relative;
+    top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.slider-btn{
+    background-color: white;
+    color:rgb(38, 36, 36) ;
+    height: 45px;
+    width: 45px;
+    font-size: 40px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+.slider-btn:hover{
+    background-color: rgb(249, 97, 42);
+    transition-duration: 0.5s;
+    color:white;
+}

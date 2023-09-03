@@ -1,0 +1,72 @@
+.gallery{
+    height:1390px;
+    width: 100%;
+}
+.gallery-text{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 1150px;
+    height: 150px;
+    margin:auto;   
+}
+.gallery-text h1{
+    font-size: 40px;
+    color:rgb(249, 97, 42)  
+} 
+.gallery-text p{
+    color:rgb(38, 36, 36);
+}
+.first-row-img {
+    height: 400px; 
+    width: 350px;  
+    
+}
+.other-row-img{
+    height: 300px;
+    width: 350px; 
+}
+.first-row{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    column-gap: 30px;
+}
+.second-row{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    column-gap: 30px;
+}
+.third-row{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    column-gap: 30px;
+}
+.center-btn{
+    height: 65px;
+    width: 100%; 
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.first i{
+    font-size:50px;
+    display:inline-block;
+    background-color: red;
+    position: relative;
+    bottom:150px;
+    left:200px;
+}
+
+
+

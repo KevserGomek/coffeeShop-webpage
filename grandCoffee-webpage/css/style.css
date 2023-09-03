@@ -1,0 +1,35 @@
+@import url(banner.css);
+@import url(nav.css);
+@import url(about-us.css);
+@import url(gallery.css);
+@import url(services.css);
+@import url(testimonial.css);
+@import url(contact-us.css);
+@import url(footer.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    width: 165px;
+    font-size: 18px;
+    background-color: rgb(38, 36, 36);
+    color:white;
+    border:none;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:rgb(249, 97, 42);
+    transition-duration: 0.5s;
+}
+.space{
+    height: 65px;
+    width: 100%;
+}
+
+
+

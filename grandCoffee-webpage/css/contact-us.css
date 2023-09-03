@@ -1,0 +1,55 @@
+.contact-us{
+    height: 640px;
+    width: 100%;
+}
+.information{
+    height: 500px;
+    width: 50%;
+    background-image: url("../images/img-10.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information input{
+    border: none;
+    border-radius: 35px;
+    height: 60px;
+    width: 580px;
+    margin-bottom: 20px;
+}
+#message-box{
+    height: 90px ;
+}
+.contact-btn{
+    height: 50px;
+    width: 165px;
+    font-size: 18px;
+    background-color: rgb(249, 97, 42);
+    color:white;
+    border:none;
+    border-radius: 25px;
+}
+.contact-btn:hover{
+    cursor:pointer;
+    color:rgb(38, 36, 36);
+    background-color: white;
+    transition-duration: 0.5s;
+}
+::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.title{
+    color:rgb(249, 97, 42);
+    text-align: center;
+    font-size:25px;
+    margin-bottom: 65px;
+}
+.contact-us-row{
+    height: 500px;
+    width: 100%;
+    display:flex;
+}
